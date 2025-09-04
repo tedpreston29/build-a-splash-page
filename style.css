@@ -1,21 +1,36 @@
 * {
   margin: 0px;
 }
-
+/* try using vh instead of px (viewport height vs pixels (vh helps with diffferent screen sizes and adjusts the content accordingly*/
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  height: 800px;
+  width: 800px;
 }
 
 .box {
-  height: 500px;
-  width: 700px;
+  height: 600px;
+  width: 600px;
   background-color: rgb(151, 38, 38);
+  border: 5px black solid;
+  border-radius: 100px;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  max-width: 90%;
 }
